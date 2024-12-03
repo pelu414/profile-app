@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
@@ -14,16 +15,16 @@ const profile = () => {
                         <nav className="breadcrumb-nav">
                             <ul className="breadcrumb">
                                 <li>
-                                    <a href="/">Home</a>
+                                    <Link href="/">Home</Link>
                                 </li>
                                 <li>/</li>
                                 <li className="active">Profile</li>
                             </ul>
                         </nav>
                         <div className="down-arrow">
-                            <a href="#profile-section">
+                            <Link href="#profile-section">
                                 <i className="fa-solid fa-angle-down" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </section>
@@ -37,13 +38,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <FontAwesomeIcon icon={faLink} className= "fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -56,13 +57,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <FontAwesomeIcon icon={faLink} className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -75,13 +76,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -94,13 +95,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -113,13 +114,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -132,13 +133,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -151,13 +152,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -170,13 +171,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -189,13 +190,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -208,13 +209,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -227,13 +228,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -246,13 +247,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -265,13 +266,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -284,13 +285,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -303,13 +304,13 @@ const profile = () => {
                                 <p>Skills: Software Engineer</p>
                                 <p>Batch: Batch A, December 2024</p>
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://gee-flash.github.io/OnePageWebsite/"
                                         target="_blank"
                                     >
                                         Portfolio URL Link
                                         <i className="fa-solid fa-link" />
-                                    </a>
+                                    </Link>
                                 </p>
                                 <p>Gender: Male</p>
                             </div>
@@ -317,30 +318,30 @@ const profile = () => {
                     </div>
                     {/* Pagination */}
                     <div className="pagination">
-                        <a href="#" id="prev" style={{ display: "none" }}>
+                        <Link href="#" id="prev" style={{ display: "none" }}>
                             Prev
-                        </a>
-                        <a href="#" className="page" data-page={1}>
+                        </Link>
+                        <Link href="#" className="page" data-page={1}>
                             1
-                        </a>
-                        <a href="#" className="page" data-page={2}>
+                        </Link>
+                        <Link href="#" className="page" data-page={2}>
                             2
-                        </a>
-                        <a href="#" className="page" data-page={3}>
+                        </Link>
+                        <Link href="#" className="page" data-page={3}>
                             3
-                        </a>
-                        <a href="#" className="page" data-page={4}>
+                        </Link>
+                        <Link href="#" className="page" data-page={4}>
                             4
-                        </a>
-                        <a href="#" className="page" data-page={5}>
+                        </Link>
+                        <Link href="#" className="page" data-page={5}>
                             5
-                        </a>
-                        <a href="#" className="page" data-page={6}>
+                        </Link>
+                        <Link href="#" className="page" data-page={6}>
                             6
-                        </a>
-                        <a href="#" id="next">
+                        </Link>
+                        <Link href="#" id="next">
                             Next
-                        </a>
+                        </Link>
                     </div>
                 </section>
             </>
